@@ -56,3 +56,38 @@ button{
     font-size: 2rem;
 }
 
+/* header section */
+header{
+    padding: 0 20rem;
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 120rem;
+    align-items: center;
+}
+
+header nav .logo h1{
+font-size: 3rem;
+}
+
+header nav .menu{
+    display: flex;
+}
+
+header nav .menu a{
+    margin-left: 4rem;
+}
+
+header nav .menu a li{
+    font-size: 2rem;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+
+header nav .menu a li:hover{
+    color: #4b709e;
+}
